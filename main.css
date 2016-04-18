@@ -1,13 +1,45 @@
 /* Fortune Cookie Generator Styles */
+		html {
+			background-color: #F8F8F8;
+			text-align: center;
+			padding: 2em;
+			font-family: Arial, Helvetica, sans-serif;
+		}
 
-html {
-    text-align: center;
-    padding: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-}
+		.fortune-cookie-saying-wrapper {
+			background-color: #FFF;
+			padding: 1em;
+			margin: 1em;
+			border: 1px solid #cecece;
+		}
 
-.fortune-cookie-saying-wrapper {
-    border: 1px solid #666;
-    padding: 1em;
-    margin: 1em;
-}
+		div.divider{
+			margin: 20px auto;
+			width: 100%;
+			border-bottom: 1px solid #E8E8E8;
+		}
+
+		#previous-fortunes-container{
+			padding: 5px;
+			margin:0 auto;
+			width: 80%;
+			text-align: left;
+		}
+
+		#fortune-cookie-text{
+			margin:0 auto;
+			padding: 10px;
+			font-size: 25px;
+			color: #FFF;
+			width: 80%;
+			background-color: #FF6100;
+		}
+
+		li{
+			padding: 5px;
+			color: steelblue;
+		}
+
+		.title{
+			color: #393030;
+		}
